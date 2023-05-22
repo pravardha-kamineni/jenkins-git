@@ -1,6 +1,7 @@
 package runner;
 
 import org.junit.runner.RunWith;
+import org.testng.annotations.Test;
 
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
@@ -16,6 +17,7 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 						"pretty","json:petstore_Ques1_Target/JsonReports/petstoreReport.json"}
 		)
 
+@Test
 public class petstore_Ques1_Runner extends AbstractTestNGCucumberTests {
 
 }
