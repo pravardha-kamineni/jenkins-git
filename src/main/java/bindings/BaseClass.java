@@ -29,7 +29,7 @@ public class BaseClass {
 		driver.get(url);
 		
 		//implicit weight
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(60));
 		
 		//explicit wait
 		wait = new WebDriverWait(driver,Duration.ofSeconds(60));

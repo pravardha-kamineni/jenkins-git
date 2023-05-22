@@ -9,7 +9,7 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features = "/Users/KA20463902/eclipse-workspace/cucumber_selenium/src/test/java/Features"
+		features = "/Users/KA20463902/eclipse-workspace/cucumber_selenium/src/test/java/Features/petstore_Ques1.feature"
 		,glue = {"bindings"}
 		,tags = "@petstore"
 		,plugin = {"pretty","html:petstore_Ques1_Target/HtmlReports/petstoreReport.html",
@@ -17,7 +17,6 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 						"pretty","json:petstore_Ques1_Target/JsonReports/petstoreReport.json"}
 		)
 
-@Test
 public class petstore_Ques1_Runner extends AbstractTestNGCucumberTests {
 
 }
