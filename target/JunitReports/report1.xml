@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="0.086" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="Signin page" name="Signin with valid credentials" time="0.008">
+<system-out><![CDATA[
+Given The application is launched...........................................passed
+When The user entered valid username and password...........................passed
+And The user hit the signin button..........................................passed
+Then The user signed in successfully........................................passed
+]]></system-out>
+</testcase>
+</testsuite>
